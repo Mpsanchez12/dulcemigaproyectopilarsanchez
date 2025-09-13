@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Dulce Miga</title>
+    <link rel="icon" type="image/png" href="../img/fondos/cake.png">
+  
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header class="site-header" role="banner">
+        <div class="container header-inner">
+            <a class="logo" href="../index.html">DulceMiga</a>
+            <input id="menu-toggle" class="menu-toggle" type="checkbox" aria-label="Abrir menú">
+            <label for="menu-toggle" class="menu-btn" aria-hidden="true" title="Abrir menú">
+                <span></span><span></span><span></span>
+            </label>
+            <nav class="main-nav" role="navigation" aria-label="Navegación principal">
+                <ul class="menu">
+                    <li><a href="../index.html" class="icon-home" data-icon>Inicio</a></li>
+                    <li><a href="servicios.html" class="icon-cookie" data-icon>Servicios</a></li>
+                    <li><a href="equipo.html" class="icon-users" data-icon>Equipo</a></li>
+                    <li><a href="galeria.html" class="icon-images" data-icon>Galería</a></li>
+                    <li><a href="contacto.html" class="icon-envelope" data-icon>Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container" role="main">
+        <h2 class="section-title" id="contact-heading">Contacta con nosotros</h2>
+        <form class="contact-form" id="formulario" aria-labelledby="contact-heading">
+            <label for="nombre">Nombre y Apellido:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="motivo">Motivo de la consulta:</label>
+            <select id="motivo" name="motivo">
+                <option value="consulta-general">Consulta general</option>
+                <option value="pedido">Realizar un pedido</option>
+                <option value="catering">Servicio de Catering</option>
+                <option value="reclamacion">Reclamación</option>
+            </select>
+            <label for="mensaje">Tu Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </main>
+
+    <footer class="site-footer oscuro" role="contentinfo">
+        <div class="container footer-inner">
+            <div class="footer-info">
+                <p>📍 Av. Siempreviva 742</p>
+                <p>📞 +54 9 3364272078 | ✉️ dulcemiga@resposteriacorazon.com</p>
+            </div>
+            <div class="footer-links">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
