@@ -65,6 +65,12 @@ a { text-decoration: none; color: var(--rosa-fuerte); }
                  0 0 30px rgba(255, 51, 102, 0.5);
     transform: scale(1.05);
 }
+.logo img {
+  max-height: 50px;
+  width: auto;
+  margin-right: 10px;
+  vertical-align: middle; 
+}
 
 
 .menu-toggle {
