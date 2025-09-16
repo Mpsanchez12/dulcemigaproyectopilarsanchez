@@ -11,7 +11,7 @@
     
     /* Fuentes principales de respaldo */
     --fuente-titulos: 'Pacifico', 'Dancing Script', 'Brush Script MT', cursive;
-    --fuente-normal: 'Quicksand', 'Verdana', 'Helvetica', 'Arial', sans-serif;
+    --fuente-normal: 'Quicksand', 'Verdana', 'Tahoma', 'Segoe UI', sans-serif;
     
     --max-w: 1200px;
 }
@@ -286,6 +286,7 @@ a { text-decoration: none; color: var(--rosa-fuerte); }
     display: block;
 }
 .card h3 {
+    font-size: 1.5rem;
     color: var(--rosa-fuerte);
     margin: 0.75rem 0;
 }
@@ -357,7 +358,7 @@ h1, h2, h3 {
     text-align: center;
 }
 .section-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin: 2rem 0 1rem;
     color: var(--rosa-fuerte);
     text-shadow:
