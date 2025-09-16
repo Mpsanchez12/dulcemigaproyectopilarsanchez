@@ -504,12 +504,11 @@ h1, h2, h3 {
                        0 0 10px rgba(255, 51, 102, 0.4); }
 }
 
-
 .footer-inner {
   display: flex;
-  justify-content: space-between; /* Distribuye el espacio entre las secciones */
-  align-items: flex-start; /* Alinea los elementos en la parte superior */
-  flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+  justify-content: space-between; 
+  align-items: flex-start; 
+  flex-wrap: wrap; 
 }
 
 .footer-info,
@@ -525,7 +524,7 @@ h1, h2, h3 {
 
 .footer-info ul,
 .footer-links ul {
-  list-style: none; /* Quita los puntos de la lista */
+  list-style: none; 
   padding: 0;
 }
 
